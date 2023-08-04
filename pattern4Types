@@ -1,0 +1,88 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int n=5;
+	/*
+	1 
+    1 2 
+    1 2 3 
+    1 2 3 4 
+    1 2 3 4 5 
+	    for(int i=1;i<=n;i++)
+	    {
+	    	for(int j=1;j<=i;j++)
+	    	{
+	    		cout<<j<<" ";
+	    	}
+	    	cout<<"\n";
+	    }
+	    */
+	    /*
+	    1 
+        2 2 
+        3 3 3 
+        4 4 4 4 
+        5 5 5 5 5 
+	    for(int i=1;i<=n;i++)
+	    {
+	    	for(int j=1;j<=i;j++)
+	    	{
+	    		cout<<i<<" ";
+	    	}
+	    	cout<<"\n";
+	    }
+	    */
+	    /*
+	      1
+        2 3
+        4 5 6
+        7 8 9 10
+        int num=1;
+	    for(int i=1;i<=n;i++)
+	    {
+	    	for(int j=1;j<=i;j++)
+	    	{
+	    		cout<<num<<" ";
+	    		num++;
+	    	}
+	    	
+	    	cout<<"\n";
+	    }
+	    */
+	    
+	    /*
+	      A 
+        B C 
+        D E F 
+        G H I J 
+        K L M N O 
+ 
+	    char ch='A';
+	    for(int i=1;i<=n;i++)
+	    {
+	    	for(int j=1;j<=i;j++)
+	    	{
+	    		cout<<ch<<" ";
+	    		ch++;
+	    	}
+	    	
+	    	cout<<"\n";
+	    }
+	    */
+	    char ch='A';
+	    for(int i=1;i<=n;i++)
+	    {
+	    	for(int j=1;j<=i;j++)
+	    	{
+	    		cout<<ch<<" ";
+	    		
+	    	}
+	    	ch++;
+	    	cout<<"\n";
+	    }
+
+	    
+	return 0;
+}
